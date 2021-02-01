@@ -21,11 +21,11 @@ author:
   email: acharya.bis@gmail.com # your contact adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
-# Url settings
-url: "https://klise.now.sh"
+# URL settings
+url: "https://klise.now.sh" #
 baseurl:
 permalink: /:title/
-google_analytics:
+google_analytics: # leave it blank if not wish
 fb_appid:
 
 # Collection setting
@@ -58,7 +58,11 @@ jekyll_compose:
     tags: []
     description:
 
+# Homepage limit posts
+number_of_posts: 5
+
 # Build settings
+# theme: klise
 sass:
   style: compressed
 
@@ -75,6 +79,10 @@ exclude:
   - README.md
   - node_modules
   - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+  - klise.gemspec
 
 # Plugins
 plugins:

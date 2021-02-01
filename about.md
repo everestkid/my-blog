@@ -10,7 +10,7 @@ Bishal Acharya is an Android Developer. He also likes working on Python and Djan
 If you have a question, just send a letter..
 
 
-##### may u needs ✨
+**may u needs ✨**
 
 - {{ site.author.email }}
 - github.com/{{ site.author.github }}

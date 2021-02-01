@@ -34,10 +34,10 @@ For demo <a href="https://klise.now.sh" target="_blank" rel="noopener">klise.now
 Run local server:
 
 ```bash
-git clone https://github.com/piharpi/jekyll-klise.git
-cd jekyll-klise
-bundle install
-bundle exec jekyll serve
+$ git clone https://github.com/piharpi/jekyll-klise.git
+$ cd jekyll-klise
+$ bundle install
+$ bundle exec jekyll serve
 ```
 
 Navigate to `localhost:4000`. You're Welcome, Fork and be Stargazer.
@@ -53,7 +53,9 @@ Navigate to `localhost:4000`. You're Welcome, Fork and be Stargazer.
 If you see any typos or formatting errors in a post, or want to helping reduce backlogs or any other issue that needs to be addressed, please do not hesitate to open a pull request and fix it!, please read [contributing](./CONTRIBUTING.md) before PR.
 
 Yeaaa feel free to open a pull request.
+## Support
 
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W7MJ4X) [![saweria.co](./assets/img/saweria-button.png)](https://saweria.co/piharpi)
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
