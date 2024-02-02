@@ -1,12 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://klise.now.sh/feed.xml" rel="self" type="application/atom+xml" /><link href="https://klise.now.sh/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-02-02T21:43:23+00:00</updated><id>https://klise.now.sh/feed.xml</id><title type="html">Klise Theme</title><subtitle>He&apos;s writing in Bahasa about web technology and experience as a journal  for documentation things that he learned, meet him &lt;a href=&quot;https://github.com/piharpi&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@github&lt;/a&gt;.</subtitle><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><entry><title type="html">Game of life</title><link href="https://klise.now.sh/game-of-life/" rel="alternate" type="text/html" title="Game of life" /><published>2022-08-12T08:19:00+00:00</published><updated>2022-08-12T08:19:00+00:00</updated><id>https://klise.now.sh/game-of-life</id><content type="html" xml:base="https://klise.now.sh/game-of-life/"><![CDATA[<h1 id="history">History</h1>
-<p>In 1970 John Conway developed a simulation known as Game of Life. It can be used</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-02-02T23:29:06+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Klise Theme</title><subtitle>He&apos;s writing in Bahasa about web technology and experience as a journal  for documentation things that he learned, meet him &lt;a href=&quot;https://github.com/piharpi&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@github&lt;/a&gt;.</subtitle><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><entry><title type="html">Game of life</title><link href="http://localhost:4000/game-of-life/" rel="alternate" type="text/html" title="Game of life" /><published>2022-08-12T08:19:00+00:00</published><updated>2022-08-12T08:19:00+00:00</updated><id>http://localhost:4000/game-of-life</id><content type="html" xml:base="http://localhost:4000/game-of-life/"><![CDATA[<p>In 1970 John Conway developed a cellular automation known as Game of Life. The program is a 2D grid of square cells which can be in either “alive” or “dead” state. Each cell interacts with its 8 neighbours, which are horizontally, vertically and diagonally adjacent.</p>
 
-<p>Here I have simulated the same automation using P5 js.</p>
+<p>The rules are simple:</p>
 
+<ol>
+  <li>Each cell with one or no neighbors dies, as if by solitude</li>
+  <li>Each cell with four or more neighbors dies, as if by overpopulation</li>
+  <li>Each cell with two or three neighbors survives</li>
+</ol>
+
+<p>Complex patterns can be observed from this simple rule and can be considered a mathematical beauty.</p>
+
+<p>Here is a simple implementation using p5.js.<br />
+<sup>*Left click to populate a cell  / Right click to unpopulate a cell</sup></p>
 <html>
   <head>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
     <script src="sketch.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
       <div id="canvas-container">
@@ -14,40 +24,35 @@
       </div>
       <div id="button-container" style="display: flex;column-gap: 12px;"></div>
 
-      
+      <br />
 
     <section>
-      <h2>Some interesting example</h2>
-      <!-- <button class="button-6" id="bt1"></button>
-      <button class="button-6" id="bt2"></button> -->
+      <div class="heading-example">Some popular patterns</div>
       <button class="button-6" id="bt3"></button>
-      <!-- <button class="button-6" id="bt4"></button>
-      <button class="button-6" id="bt5"></button> -->
       <button class="button-6" id="bt6"></button>
       <button class="button-6" id="bt7"></button>
+
+      <!-- <button class="button-6" id="bt1"></button>
+      <button class="button-6" id="bt2"></button> -->
+  
+      <!-- <button class="button-6" id="bt4"></button>
+      <button class="button-6" id="bt5"></button> -->
+     
       <!-- <button class="button-6" id="bt8"></button> -->
 
-      <div id="article">
-         <h2>Rules</h2>
-         For a cell that is populated:
-         <ol>
-            <li>Each cell with one or no neighbors dies, as if by solitude.</li>
-            <li>Each cell with four or more neighbors dies, as if by overpopulation.</li>
-            <li>Each cell with two or three neighbors survives.</li>
-         </ol>
-         For a cell that is unpopulated or empty:
-         <ol>
-            <li>Each cell with exactly three neighbors becomes populated.</li>
-         </ol>
-         <div id="gridRule">
-            <p>*Left click to populate a cell<br />
-            *Right click to unpopulate a cell</p>
-         </div>
-      </div>
+    
 
    </section>
   </body>
-</html>]]></content><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><summary type="html"><![CDATA[History In 1970 John Conway developed a simulation known as Game of Life. It can be used]]></summary></entry><entry><title type="html">Travelling Salesman Problem Part 1</title><link href="https://klise.now.sh/travelling-salesman-problem/" rel="alternate" type="text/html" title="Travelling Salesman Problem Part 1" /><published>2021-02-07T08:19:00+00:00</published><updated>2021-02-07T08:19:00+00:00</updated><id>https://klise.now.sh/travelling-salesman-problem</id><content type="html" xml:base="https://klise.now.sh/travelling-salesman-problem/"><![CDATA[<h3 id="solving-using-permutation">Solving using Permutation</h3>
+</html>
+
+<h5 id="resources">Resources</h5>
+
+<ul>
+  <li><a href="https://thecodingtrain.com/challenges/85-the-game-of-life">The Coding Train</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway’s Game of Life - Wikipedia</a></li>
+  <li><a href="https://github.com/knightfury16/Game-of-life-with-p5.js-library">Game of life with p5.js library</a></li>
+</ul>]]></content><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><summary type="html"><![CDATA[In 1970 John Conway developed a cellular automation known as Game of Life. The program is a 2D grid of square cells which can be in either “alive” or “dead” state. Each cell interacts with its 8 neighbours, which are horizontally, vertically and diagonally adjacent.]]></summary></entry><entry><title type="html">Travelling Salesman Problem Part 1</title><link href="http://localhost:4000/travelling-salesman-problem/" rel="alternate" type="text/html" title="Travelling Salesman Problem Part 1" /><published>2021-02-07T08:19:00+00:00</published><updated>2021-02-07T08:19:00+00:00</updated><id>http://localhost:4000/travelling-salesman-problem</id><content type="html" xml:base="http://localhost:4000/travelling-salesman-problem/"><![CDATA[<h3 id="solving-using-permutation">Solving using Permutation</h3>
 <p>Travelling Salesman Problem is a classic problem in Computer Science. TSP has its application in delivery business, planning and different other areas.</p>
 
 <p>Travelling salesman problem requires us to find a route or a path with least distance, that covers all the  cities and returns back to the original city.There are many algorithms to solve this problem like Genetics Algorithm, Nearest Neighbour Algorithm, Greedy Heuristic Algorithm, etc. This time I am using permutation to solve this problem.</p>
@@ -65,7 +70,7 @@
   <li>Calculate the distance for each route and choose route with the minimum distance.</li>
 </ol>
 
-<p>I used <a href="https://p5js.org/">P5.js</a> to render the point and calculate the distance between points. In the upcoming blog I will use other algorithms to solve the TSP problem.</p>]]></content><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><summary type="html"><![CDATA[Solving using Permutation Travelling Salesman Problem is a classic problem in Computer Science. TSP has its application in delivery business, planning and different other areas.]]></summary></entry><entry><title type="html">Developing Mobile Apps with Ionic Framework</title><link href="https://klise.now.sh/developing-mobile-app-with-ionic-copy/" rel="alternate" type="text/html" title="Developing Mobile Apps with Ionic Framework" /><published>2020-08-14T08:19:00+00:00</published><updated>2020-08-14T08:19:00+00:00</updated><id>https://klise.now.sh/developing-mobile-app-with-ionic%20copy</id><content type="html" xml:base="https://klise.now.sh/developing-mobile-app-with-ionic-copy/"><![CDATA[<p>For the past 5 years I have been developing mobile apps for Android Plaform. Recently I got the chance to build an app using Ionic Framework. <a href="https://ionicframework.com/" target="_blank" rel="noopener"> “Ionic Framework  is an open source mobile UI toolkit for building high quality, cross-platform native and web app experiences”</a>.</p>
+<p>I used <a href="https://p5js.org/">P5.js</a> to render the point and calculate the distance between points. In the upcoming blog I will use other algorithms to solve the TSP problem.</p>]]></content><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><summary type="html"><![CDATA[Solving using Permutation Travelling Salesman Problem is a classic problem in Computer Science. TSP has its application in delivery business, planning and different other areas.]]></summary></entry><entry><title type="html">Developing Mobile Apps with Ionic Framework</title><link href="http://localhost:4000/developing-mobile-app-with-ionic-copy/" rel="alternate" type="text/html" title="Developing Mobile Apps with Ionic Framework" /><published>2020-08-14T08:19:00+00:00</published><updated>2020-08-14T08:19:00+00:00</updated><id>http://localhost:4000/developing-mobile-app-with-ionic%20copy</id><content type="html" xml:base="http://localhost:4000/developing-mobile-app-with-ionic-copy/"><![CDATA[<p>For the past 5 years I have been developing mobile apps for Android Plaform. Recently, I got the chance to build an app using Ionic Framework. <a href="https://ionicframework.com/" target="_blank" rel="noopener"> “Ionic Framework  is an open source mobile UI toolkit for building high quality, cross-platform native and web app experiences”</a>.</p>
 
 <p>It was a pretty good experience working with Ionic. Ionic 5 supports React, Angular, Vue and Vanilla Javascipt, so any web developer can easily build mobile apps.</p>
 
@@ -82,4 +87,4 @@
 <p>Ionic does not have support for all the hardware capabilities and plugins may not be stable. The performance is good but not as good as native application. As there are stable libraries and support for android development it is not the same case for Ionic , specially when working with certain native features such as location, database, etc.</p>
 
 <h3 id="my-experience">My Experience</h3>
-<p>Ionic and any other Hybrid App technology is not a replacement to native app development, but they can serve as a good alternative for companies with limited resource. Besides the cost, it will help with uniform code base across multiple platform. The best thing about Ionic is the ability to test your app in browser. You don’t need extra hardware or emulator to run your app. It has support for most of the hardware such as gps, fingerprint and many others. If used it can save time, money and resource.</p>]]></content><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><summary type="html"><![CDATA[For the past 5 years I have been developing mobile apps for Android Plaform. Recently I got the chance to build an app using Ionic Framework. “Ionic Framework is an open source mobile UI toolkit for building high quality, cross-platform native and web app experiences”.]]></summary></entry></feed>
+<p>Ionic and any other Hybrid App technology is not a replacement to native app development, but they can serve as a good alternative for companies with limited resource. Besides the cost, it will help with uniform code base across multiple platform. The best thing about Ionic is the ability to test your app in browser. You don’t need extra hardware or emulator to run your app. It has support for most of the hardware such as gps, fingerprint and many others. If used it can save time, money and resource.</p>]]></content><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><summary type="html"><![CDATA[For the past 5 years I have been developing mobile apps for Android Plaform. Recently, I got the chance to build an app using Ionic Framework. “Ionic Framework is an open source mobile UI toolkit for building high quality, cross-platform native and web app experiences”.]]></summary></entry></feed>

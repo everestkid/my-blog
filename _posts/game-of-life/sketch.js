@@ -4,6 +4,8 @@ let rows;
 let resolution = 18;
 let next;
 let button;
+let button2;
+let statusText;
 let start = false;
 
 let x = 500;
@@ -22,7 +24,9 @@ function make2DArray(cols, rows) {
 
 function setup() {
   var myCanvas = createCanvas(x, y);
+  statusText = createP("Running: "+start);
   myCanvas.parent("canvas-container");
+  statusText.parent("canvas-container");
 
   frameRate(10);
   background(100);
@@ -33,11 +37,15 @@ function setup() {
   });
   
   button = createButton('Stop');
+  button.class("button-action");
   
-  button.size(60,30);
+  // button.size(60,30);
   button2 = createButton("Start")
 
-  button2.size(60,30);
+  button2.class("button-action");
+
+
+  // button2.size(60,30);
 
   button.position(buttonOffsetx, buttonOffsety,'inherit');
   button.mousePressed(init);
@@ -62,7 +70,7 @@ function setup() {
 function gotData(data)
 {
   //Getting the data and rendering the button in interesting example section
-  let a = document.querySelector("#article");
+  // let a = document.querySelector("#article");
 
   for(let i = 0; i < data.list.length; i++)
   {
@@ -73,6 +81,7 @@ function gotData(data)
     btn.innerText = data.list[i].name;
 
     btn.addEventListener("click",()=>{
+      start=false;
       if(!start){
 
         for(let j = 0; j < cols; j++ ){
@@ -139,6 +148,7 @@ if(start){
   next = temp;
  
 }
+statusText.html("Running: "+start);
 }
 
 function mousePressed() {
