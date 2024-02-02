@@ -1,0 +1,44 @@
+.button-6{
+    padding: 12px 8px;
+    margin: 8px 4px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+button.button-6:hover{
+    background-color: #4a4a4a;
+    color: white;
+}
+
+.button-action{
+    padding:16px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: 0.3s;
+
+}
+
+.button-action:hover{
+    background-color: #4a4a4a;
+    color: white;
+}
+
+.heading-example{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin: 16px 0;
+}

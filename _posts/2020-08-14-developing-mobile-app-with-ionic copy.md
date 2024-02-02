@@ -3,7 +3,7 @@ layout: post
 title: Developing Mobile Apps with Ionic Framework
 date: 2020-08-14 14:04 +0545
 ---
-For the past 5 years I have been developing mobile apps for Android Plaform. Recently I got the chance to build an app using Ionic Framework. <a href="https://ionicframework.com/" target="_blank" rel="noopener"> "Ionic Framework  is an open source mobile UI toolkit for building high quality, cross-platform native and web app experiences"</a>.
+For the past 5 years I have been developing mobile apps for Android Plaform. Recently, I got the chance to build an app using Ionic Framework. <a href="https://ionicframework.com/" target="_blank" rel="noopener"> "Ionic Framework  is an open source mobile UI toolkit for building high quality, cross-platform native and web app experiences"</a>.
 
  It was a pretty good experience working with Ionic. Ionic 5 supports React, Angular, Vue and Vanilla Javascipt, so any web developer can easily build mobile apps. 
 

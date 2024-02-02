@@ -5,12 +5,9 @@ layout: page
 excerpt:Hello folks , my name is Bishal Acharya. I am an Android devloper. I like Python and Django. This blog is about my experiences learning new things.
 comments: false
 ---
-Bishal Acharya is an Android Developer. He also likes working on Python and Django projects. He works in <a href="http://www.teamonetech.com" target="_blank" rel="noopener"> Team One Technology</a>, a company he and his friends started in 2019. This blog is about his experiences learning new things. 
+I am an Android developer but I am always excited to try new technology. This blog is my experience of my learning journey.  
 
 If you have a question, just send a letter..
-
-
-**may u needs ✨**
 
 - {{ site.author.email }}
 - github.com/{{ site.author.github }}
