@@ -1,36 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2021-09-28T10:35:39+05:45</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bishal Acharya Blog</title><subtitle>He's writing in Bahasa about web technology and experience as a journal  for documentation things that he learned, meet him &lt;a href=&quot;https://github.com/piharpi&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@github&lt;/a&gt;.</subtitle><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><entry><title type="html">Travelling Salesman Problem Part 1</title><link href="http://localhost:4000/travelling-salesman-problem/" rel="alternate" type="text/html" title="Travelling Salesman Problem Part 1" /><published>2021-02-07T14:04:00+05:45</published><updated>2021-02-07T14:04:00+05:45</updated><id>http://localhost:4000/travelling-salesman-problem</id><content type="html" xml:base="http://localhost:4000/travelling-salesman-problem/">&lt;h3 id=&quot;solving-using-permutation&quot;&gt;Solving using Permutation&lt;/h3&gt;
-&lt;p&gt;Travelling Salesman Problem is a classic problem in Computer Science. TSP has its application in delivery business, planning and different other areas.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-02-02T21:32:46+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Klise Theme</title><subtitle>He&apos;s writing in Bahasa about web technology and experience as a journal  for documentation things that he learned, meet him &lt;a href=&quot;https://github.com/piharpi&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@github&lt;/a&gt;.</subtitle><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><entry><title type="html">Game of life</title><link href="http://localhost:4000/game-of-life/" rel="alternate" type="text/html" title="Game of life" /><published>2022-08-12T08:19:00+00:00</published><updated>2022-08-12T08:19:00+00:00</updated><id>http://localhost:4000/game-of-life</id><content type="html" xml:base="http://localhost:4000/game-of-life/"><![CDATA[<h1 id="history">History</h1>
+<p>In 1970 John Conway developed a simulation known as Game of Life. It can be used</p>
 
-&lt;p&gt;Travelling salesman problem requires us to find a route or a path with least distance, that covers all the  cities and returns back to the original city.There are many algorithms to solve this problem like Genetics Algorithm, Nearest Neighbour Algorithm, Greedy Heuristic Algorithm, etc. This time I am using permutation to solve this problem.&lt;/p&gt;
+<p>Here I have simulated the same automation using P5 js.</p>
 
-&lt;p&gt;The approach here is to try each and every route that is possible. It is an inefficient approach because for &lt;strong&gt;n&lt;/strong&gt; number of cities the possible routes will be &lt;strong&gt;n!&lt;/strong&gt;.&lt;/p&gt;
-&lt;figure&gt;
-&lt;img src=&quot;/assets/img/cities.gif&quot; /&gt;
-&lt;figcaption&gt;Fig 1. Finding Shortest Path using permutation&lt;/figcaption&gt;
-&lt;/figure&gt;
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+      <div id="canvas-container">
 
-&lt;p&gt;There are six cities of Nepal plotted in the screen. The program loops through all the permutation and finds the best route with least distance.&lt;/p&gt;
-&lt;h4 id=&quot;algorithm&quot;&gt;Algorithm&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;Find all possible routes. For n cities the possible routes is n!&lt;/li&gt;
-  &lt;li&gt;Calculate the distance for each route and choose route with the minimum distance.&lt;/li&gt;
-&lt;/ol&gt;
+      </div>
+      <div id="button-container" style="display: flex;column-gap: 12px;"></div>
 
-&lt;p&gt;I used &lt;a href=&quot;https://p5js.org/&quot;&gt;P5.js&lt;/a&gt; to render the point and calculate the distance between points. In the upcoming blog I will use other algorithms to solve the TSP problem.&lt;/p&gt;</content><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><summary type="html">Solving using Permutation Travelling Salesman Problem is a classic problem in Computer Science. TSP has its application in delivery business, planning and different other areas.</summary></entry><entry><title type="html">Developing Mobile Apps with Ionic Framework</title><link href="http://localhost:4000/developing-mobile-app-with-ionic/" rel="alternate" type="text/html" title="Developing Mobile Apps with Ionic Framework" /><published>2020-08-14T14:04:00+05:45</published><updated>2020-08-14T14:04:00+05:45</updated><id>http://localhost:4000/developing-mobile-app-with-ionic</id><content type="html" xml:base="http://localhost:4000/developing-mobile-app-with-ionic/">&lt;p&gt;For the past 5 years I have been developing mobile apps for Android Plaform. Recently I got the chance to build an app using Ionic Framework. &lt;a href=&quot;https://ionicframework.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; “Ionic Framework  is an open source mobile UI toolkit for building high quality, cross-platform native and web app experiences”&lt;/a&gt;.&lt;/p&gt;
+      
 
-&lt;p&gt;It was a pretty good experience working with Ionic. Ionic 5 supports React, Angular, Vue and Vanilla Javascipt, so any web developer can easily build mobile apps.&lt;/p&gt;
+    <section>
+      <h2>Some interesting example</h2>
+      <!-- <button class="button-6" id="bt1"></button>
+      <button class="button-6" id="bt2"></button> -->
+      <button class="button-6" id="bt3"></button>
+      <!-- <button class="button-6" id="bt4"></button>
+      <button class="button-6" id="bt5"></button> -->
+      <button class="button-6" id="bt6"></button>
+      <button class="button-6" id="bt7"></button>
+      <!-- <button class="button-6" id="bt8"></button> -->
 
-&lt;p&gt;Setting up the environment for Ionic is easy &lt;a href=&quot;https://ionicframework.com/docs&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Go to docs&lt;/a&gt;. Once development enviroment is setup run the project using this code.&lt;/p&gt;
+      <div id="article">
+         <h2>Rules</h2>
+         For a cell that is populated:
+         <ol>
+            <li>Each cell with one or no neighbors dies, as if by solitude.</li>
+            <li>Each cell with four or more neighbors dies, as if by overpopulation.</li>
+            <li>Each cell with two or three neighbors survives.</li>
+         </ol>
+         For a cell that is unpopulated or empty:
+         <ol>
+            <li>Each cell with exactly three neighbors becomes populated.</li>
+         </ol>
+         <div id="gridRule">
+            <p>*Left click to populate a cell<br />
+            *Right click to unpopulate a cell</p>
+         </div>
+      </div>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;c&quot;&gt;#start new project&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ionic start
+   </section>
+  </body>
+</html>]]></content><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><summary type="html"><![CDATA[History In 1970 John Conway developed a simulation known as Game of Life. It can be used]]></summary></entry><entry><title type="html">Travelling Salesman Problem Part 1</title><link href="http://localhost:4000/travelling-salesman-problem/" rel="alternate" type="text/html" title="Travelling Salesman Problem Part 1" /><published>2021-02-07T08:19:00+00:00</published><updated>2021-02-07T08:19:00+00:00</updated><id>http://localhost:4000/travelling-salesman-problem</id><content type="html" xml:base="http://localhost:4000/travelling-salesman-problem/"><![CDATA[<h3 id="solving-using-permutation">Solving using Permutation</h3>
+<p>Travelling Salesman Problem is a classic problem in Computer Science. TSP has its application in delivery business, planning and different other areas.</p>
 
-&lt;span class=&quot;c&quot;&gt;#run project in browser&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ionic serve
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<p>Travelling salesman problem requires us to find a route or a path with least distance, that covers all the  cities and returns back to the original city.There are many algorithms to solve this problem like Genetics Algorithm, Nearest Neighbour Algorithm, Greedy Heuristic Algorithm, etc. This time I am using permutation to solve this problem.</p>
 
-&lt;h3 id=&quot;downside&quot;&gt;Downside&lt;/h3&gt;
-&lt;p&gt;Ionic does not have support for all the hardware capabilities and plugins may not be stable. The performance is good but not as good as native application. As there are stable libraries and support for android development it is not the same case for Ionic , specially when working with certain native features such as location, database, etc.&lt;/p&gt;
+<p>The approach here is to try each and every route that is possible. It is an inefficient approach because for <strong>n</strong> number of cities the possible routes will be <strong>n!</strong>.</p>
+<figure>
+<img src="/assets/img/cities.gif" />
+<figcaption>Fig 1. Finding Shortest Path using permutation</figcaption>
+</figure>
 
-&lt;h3 id=&quot;my-experience&quot;&gt;My Experience&lt;/h3&gt;
-&lt;p&gt;Ionic and any other Hybrid App technology is not a replacement to native app development, but they can serve as a good alternative for companies with limited resource. Besides the cost, it will help with uniform code base across multiple platform. The best thing about Ionic is the ability to test your app in browser. You don’t need extra hardware or emulator to run your app. It has support for most of the hardware such as gps, fingerprint and many others. If used it can save time, money and resource.&lt;/p&gt;</content><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><summary type="html">For the past 5 years I have been developing mobile apps for Android Plaform. Recently I got the chance to build an app using Ionic Framework. “Ionic Framework is an open source mobile UI toolkit for building high quality, cross-platform native and web app experiences”.</summary></entry></feed>
+<p>There are six cities of Nepal plotted in the screen. The program loops through all the permutation and finds the best route with least distance.</p>
+<h4 id="algorithm">Algorithm</h4>
+<ol>
+  <li>Find all possible routes. For n cities the possible routes is n!</li>
+  <li>Calculate the distance for each route and choose route with the minimum distance.</li>
+</ol>
+
+<p>I used <a href="https://p5js.org/">P5.js</a> to render the point and calculate the distance between points. In the upcoming blog I will use other algorithms to solve the TSP problem.</p>]]></content><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><summary type="html"><![CDATA[Solving using Permutation Travelling Salesman Problem is a classic problem in Computer Science. TSP has its application in delivery business, planning and different other areas.]]></summary></entry><entry><title type="html">Developing Mobile Apps with Ionic Framework</title><link href="http://localhost:4000/developing-mobile-app-with-ionic-copy/" rel="alternate" type="text/html" title="Developing Mobile Apps with Ionic Framework" /><published>2020-08-14T08:19:00+00:00</published><updated>2020-08-14T08:19:00+00:00</updated><id>http://localhost:4000/developing-mobile-app-with-ionic%20copy</id><content type="html" xml:base="http://localhost:4000/developing-mobile-app-with-ionic-copy/"><![CDATA[<p>For the past 5 years I have been developing mobile apps for Android Plaform. Recently I got the chance to build an app using Ionic Framework. <a href="https://ionicframework.com/" target="_blank" rel="noopener"> “Ionic Framework  is an open source mobile UI toolkit for building high quality, cross-platform native and web app experiences”</a>.</p>
+
+<p>It was a pretty good experience working with Ionic. Ionic 5 supports React, Angular, Vue and Vanilla Javascipt, so any web developer can easily build mobile apps.</p>
+
+<p>Setting up the environment for Ionic is easy <a href="https://ionicframework.com/docs" target="_blank" rel="noopener"> Go to docs</a>. Once development enviroment is setup run the project using this code.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c">#start new project</span>
+<span class="nv">$ </span>ionic start
+
+<span class="c">#run project in browser</span>
+<span class="nv">$ </span>ionic serve
+</code></pre></div></div>
+
+<h3 id="downside">Downside</h3>
+<p>Ionic does not have support for all the hardware capabilities and plugins may not be stable. The performance is good but not as good as native application. As there are stable libraries and support for android development it is not the same case for Ionic , specially when working with certain native features such as location, database, etc.</p>
+
+<h3 id="my-experience">My Experience</h3>
+<p>Ionic and any other Hybrid App technology is not a replacement to native app development, but they can serve as a good alternative for companies with limited resource. Besides the cost, it will help with uniform code base across multiple platform. The best thing about Ionic is the ability to test your app in browser. You don’t need extra hardware or emulator to run your app. It has support for most of the hardware such as gps, fingerprint and many others. If used it can save time, money and resource.</p>]]></content><author><name>Bishal Acharya</name><email>acharya.bis@gmail.com</email></author><summary type="html"><![CDATA[For the past 5 years I have been developing mobile apps for Android Plaform. Recently I got the chance to build an app using Ionic Framework. “Ionic Framework is an open source mobile UI toolkit for building high quality, cross-platform native and web app experiences”.]]></summary></entry></feed>
