@@ -11,6 +11,9 @@ The rules are simple:
 1. Each cell with one or no neighbors dies, as if by solitude
 2. Each cell with four or more neighbors dies, as if by overpopulation
 3. Each cell with two or three neighbors survives
+4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+
+
 
 Complex patterns can be observed from this simple rule and can be considered a mathematical beauty. 
 
